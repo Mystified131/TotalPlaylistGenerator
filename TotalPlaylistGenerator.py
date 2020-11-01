@@ -15,7 +15,7 @@ tim = ("".join(list))
 
 oustr = "TotalPlayList" + tim + ".m3u"
 
-srchstr = 'H:\\OriginalAudio\\Songs'
+srchstr = 'E:\\OriginalAudio\\Songs'
 
 outfile = open(oustr, "w")
 
@@ -34,11 +34,6 @@ outfile.close()
 print("")
 
 print("Your playlist may be found in the same folder as this code.")
-
-
-
-
-
 
 
 ## THE GHOST OF THE SHADOW ##
