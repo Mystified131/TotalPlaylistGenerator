@@ -17,6 +17,8 @@ oustr = "TotalPlayList" + tim + ".m3u"
 
 srchstr = 'E:\\OriginalAudio\\Songs'
 
+#srchstr = "E:\\FactProd"
+
 outfile = open(oustr, "w")
 
 print("")

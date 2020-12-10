@@ -37,7 +37,7 @@ for subdir, dirs, files in os.walk(srchstr):
             print("")
             print(filepath)
 
-oustr = "TotalPlayList" + tim + ".txt"
+oustr = "Combined_Playlist_" + tim + ".m3u"
 
 outfile = open(oustr, "w")   
 
